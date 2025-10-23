@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --text-color: rgb(120, 120, 120);
+  --accent: white;
+  --main: #ef461b;
+}
+
+h1 {
+  color: var(--accent);
+  font-size: 22px;
+}
+button {
+  background-color: var(--accent);
+  color: black;
+  padding: 15px 30px;
+  border-radius: 42px;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.small {
+  font-size: 15px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  gap: 6px;
+  background-color: black;
+}
+
+aside {
+  width: 25%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.main-section {
+  background: #000;
+  background: linear-gradient(
+    313deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(34, 34, 34) 50%,
+    rgb(41, 41, 41) 100%
+  );
+  width: 75%;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 0px 5px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main-section::-webkit-scrollbar {
+  display: none;
+}

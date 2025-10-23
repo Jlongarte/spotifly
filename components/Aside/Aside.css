@@ -1,0 +1,76 @@
+.aside-section {
+  background-color: rgb(25, 25, 25);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+h3 {
+  color: var(--accent);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.box {
+  padding: 20px;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
+h4,
+p {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.box > button {
+  font-weight: 800;
+  padding: 8px 12px;
+  border: none;
+  margin-top: 10px;
+}
+
+.languages {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: white 1px solid;
+  cursor: pointer;
+}
+
+/* Tablet: entre 768px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  aside {
+    display: none;
+  }
+}
+
+/* Móvil: hasta 767px */
+@media (max-width: 767px) {
+  aside {
+    display: none;
+  }
+}
