@@ -5,7 +5,7 @@ El objetivo del proyecto es aprender sobre consumo de APIs, diseño responsivo y
 
 ## Demo
 
-🔗 [Ver demo en vivo](https://tu-enlace-aqui.com)
+🔗 https://spotifly-project.netlify.app/
 
 
 ## Tecnologías utilizadas
