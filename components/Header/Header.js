@@ -5,9 +5,9 @@ const template = () => {
   return `
 <section class="navbar">
 <nav>
-<img src="./public/icon.png" alt="logo">
+<img src="./icon.png" alt="logo">
 <ul>
-    <li><img src="logo.jpg" alt="logo"></li>
+    <li><img src="./logo.jpg" alt="logo"></li>
     <li class="search-container">
       <i class="fas fa-search"></i>
       <input type="text" placeholder="¿Qué quieres reproducir?" id="search-input">
@@ -247,3 +247,4 @@ const addPlayFunctionality = (containerId, dataArray) => {
 };
 
 export default Header;
+
